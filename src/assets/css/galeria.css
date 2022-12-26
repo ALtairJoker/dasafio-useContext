@@ -1,0 +1,79 @@
+.galeria {
+  display: grid;
+  gap: 2em;
+  justify-items: center;
+}
+
+.grid-columns-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid-columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.galeria .foto {
+  cursor: pointer;
+  padding: 10px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: left;
+  text-shadow: 0px 0px 15px black;
+}
+
+.galeria .foto:hover {
+  box-shadow: 0px 0px 2px 1px black;
+}
+
+.galeria .foto svg {
+  align-self: flex-end;
+}
+
+.p-3 {
+  padding: 30px;
+
+}
+
+.fotos{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+ 
+}
+
+.sombra {
+  -webkit-box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+}
+
+.zoom {
+  transition: transform .5s;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
+}
+
+p {
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+}
+
+.corazon{
+  position:absolute;
+  right: 5%;
+  color: aliceblue;
+}
+
+.rojo {
+  color: red;
+}
