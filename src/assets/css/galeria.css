@@ -7,6 +7,7 @@
 .grid-columns-5 {
   grid-template-columns: repeat(5, 1fr);
 }
+
 .grid-columns-4 {
   grid-template-columns: repeat(4, 1fr);
 }
@@ -39,17 +40,17 @@
 
 }
 
-.fotos{
+.fotos {
   position: relative;
   display: inline-block;
   text-align: center;
- 
+
 }
 
 .sombra {
-  -webkit-box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.75);
 }
 
 .zoom {
@@ -68,8 +69,8 @@ p {
   color: aliceblue;
 }
 
-.corazon{
-  position:absolute;
+.corazon {
+  position: absolute;
   right: 5%;
   color: aliceblue;
 }

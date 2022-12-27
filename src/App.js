@@ -10,13 +10,12 @@ import Favoritos from "./views/Favoritos";
 import MyContext from "./myContext";
 
 export default function App() {
-  const endpoint = "/fotos.json";
+  const [fotos, setFotos] = useState([]);
   const [favoritas, setFavoritas] = useState([]);
-
 
   return (
     <div className="App">
-      <MyContext.Provider value={{favoritas, setFavoritas}} >
+      <MyContext.Provider value={{ fotos, setFotos, favoritas, setFavoritas }}>
         <BrowserRouter>
           <Navbar />
           <Routes>
