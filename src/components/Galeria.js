@@ -14,7 +14,7 @@ export default function Home() {
       // cree mi propio perfil en pexels para poder obtener mis propias fotos a traves de la API
 
       const response = await fetch(
-        "https://api.pexels.com/v1/collections/qtlog4u?per_page=15",
+        "https://api.pexels.com/v1/collections/qtlog4u?per_page=80",
         {
           headers: {
             Authorization:
