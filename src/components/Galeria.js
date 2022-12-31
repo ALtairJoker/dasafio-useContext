@@ -1,5 +1,5 @@
 import "../assets/css/galeria.css";
-import { useState, useEffect, useContext } from "react";
+import { useEffect, useContext } from "react";
 import MyContext from "../myContext";
 
 export default function Home() {
